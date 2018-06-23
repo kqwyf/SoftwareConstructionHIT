@@ -1080,7 +1080,7 @@ JVM维护3块内存空间：
   | A add 1, %rax                       |                                     |
   |                                     | B add 1, %rax                       |
   | A mov %rax, balance  #此时balance=1 |                                     |
-  | -                                   | B mov %rax, balance  #此时balance=1 |
+  |                                     | B mov %rax, balance  #此时balance=1 |
 
 **注意事项**：只有写时会出现竞争，即读写竞争或写写竞争。读与读之间不会发生竞争。
 
