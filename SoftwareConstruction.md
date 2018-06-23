@@ -760,7 +760,7 @@ Java中所有异常对象都实现了Throwable接口，分为Error和Exception�
 
 ##### 名词解释
 
-**Unchecked异常：**由程序错误引起，不需要显式地throw和catch。例如NullPointerException。
+**Unchecked异常**：由程序错误引起，不需要显式地throw和catch。例如NullPointerException。
 
 **Checked异常**：不是由程序错误而是由于外部环境因素引起，可以预见，必须被每个调用者捕获和处理。例如IOException。checked异常在抛出前必须被声明抛出，在抛出后必须被catch。
 
@@ -1028,7 +1028,7 @@ JVM维护3块内存空间：
 
 ### 竞争条件
 
-**定义：**程序的正确性依赖于并行执行的计算A和B中指令执行的相对次序。
+**定义**：程序的正确性依赖于并行执行的计算A和B中指令执行的相对次序。
 
 #### 原因
 
