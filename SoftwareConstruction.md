@@ -135,7 +135,7 @@
 
 - 本地版本控制系统(local VCS)
 - 中心化版本控制系统(centralized VCS)
-- 分布式版本控制系统(istributed VCS)
+- 分布式版本控制系统(distributed VCS)
 
 ##### 特点
 
